@@ -13,7 +13,6 @@
 }
 a{
     color: white;
-    text-decoration: none;
 }
 
 
@@ -283,7 +282,6 @@ header{
     font-size: 35px;
 }
 .YourReview{
-    display: block;
     text-align: center;
     width: 40%;
     margin-left: 30%;
@@ -344,7 +342,7 @@ header{
 .Picsphone{
     display: none;
 }
-.Reviewsphone{
+.ReviewsMob{
     display: none;
 }
 .Footerph{
@@ -693,5 +691,6 @@ header{
     .Secondphone{display: block;}
     .Picsphone{display: block;}
     .Footerph{display: block;}
+    .ReviewMob{display: block;}
 
 }

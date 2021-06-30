@@ -7,6 +7,9 @@ import FifthView from '../components/DeskVersion/FifthView'
 import HeaderMob from '../components/MobileVersion/HeaderMob'
 import PrincipalViewMob from '../components/MobileVersion/PrincipalViewMob'
 import SecondViewMob from '../components/MobileVersion/SecondViewMob'
+import ThirdViewMob from '../components/MobileVersion/ThirdViewMob'
+import ReviewMob from '../components/MobileVersion/ReviewMob'
+import FooterMob from '../components/MobileVersion/FooterMob'
 
 
 export default function Home() {
@@ -19,7 +22,6 @@ export default function Home() {
       </Head>
 
 
-      
       <main>
         <PrincipalView />
         <Secondview />
@@ -30,6 +32,8 @@ export default function Home() {
         <HeaderMob />
         <PrincipalViewMob />
         <SecondViewMob />
+        <ThirdViewMob />
+        <FooterMob />
       </main>
     
       
