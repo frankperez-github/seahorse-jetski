@@ -1,12 +1,21 @@
+
+/*****************************************   
+                                                Made By: 
+
+                                                   -Frank Perez: https://github.com/frankperez-github
+                                                   -Adrian valdes: https://github.com/adiazx14
+                                                   
+*********************************************************************************************************************************************************************************************************************************************************************/
+
 *{
     margin: 0;
     padding: 0;
 }
-
 a{
     color: white;
     text-decoration: none;
 }
+
 
 
 /*Layout*************************************/
@@ -15,23 +24,34 @@ a{
     justify-content: space-around;
     width: 100%;
     background-color: #323F41;
-    z-index: 2;
+}
+.MessageHeader{
+    position: absolute;
+    margin-left: -20%;
+    margin-top: 1%;
+    font-size: 30px;
+}
+.ReviewHeader{
+    color: white;
+    margin-top: 3%;
+    margin-left: -0.45%;
 }
 header{
     position: sticky;
     top: 0;
+    z-index: 2;
 }
 .Logo1{
     width: 16.7%;
     margin-top: 0.5%;
-    margin-left: -5.6%;
+    margin-left: -2.3%;
     margin-bottom: 0.5%;
 }
 .Logo2{
     width: 29.5%;
     margin-top: 2%;
     margin-right: 55%;
-    margin-left: -10.3%;
+    margin-left: -4%;
 }
 .Footer{
     position: relative;
@@ -44,14 +64,33 @@ header{
     width: 28%;
 }
 .LogoFoot{
-    width: 40%;
+    width: 45%;
+    margin-left: 4%;
     padding-top: 5%;
 }
 .Phone{
     width: 35%;
-    padding-top: 6%;
+    padding-top: 1.4%;
     padding-left: 3.5%;
     font-size: 2rem;
+}
+.Message{
+    padding-bottom: 5%;
+    padding-left: 4%;
+}
+.Message p{
+    color: white;
+}
+.Message p:hover{
+    color: gray; 
+    cursor: pointer;
+}
+.ReviewHeader p:hover{
+    color: gray; 
+    cursor: pointer;
+}
+.Phone a:hover{
+    color: gray;
 }
 .phone{
     font-size: 2rem;
@@ -63,12 +102,12 @@ header{
 }
 .Rightfoot{
     width: 25%;
-    margin-left: 3%;
+    margin-left: 0.5%;
 }
 .Follow{
     padding: 3% 3% 0 3%;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.95rem;
 }
 .largescript{
     width: 12%;
@@ -76,8 +115,8 @@ header{
     padding-top: 0.8%;
 }
 .netlogo{
-    width: 90%;
-    margin: 2% 5% 2% 0%;
+    width: 70%;
+    margin: 2% 2% 2% 0%;
 }
 .Networks{
     display: flex;
@@ -85,7 +124,7 @@ header{
     margin-left: 0%;
 }
 .netlogo:last-of-type {
-    margin-right: 28.5%;
+    margin-right: 10%;
 }
 /*end of Layout*************************************/
 
@@ -201,3 +240,458 @@ header{
     margin: 0;
 }
 /*Third View**************************/
+
+/*FourthView**************************/
+.Fourth  {
+    width: 83%;
+    padding: 12% 0% 0.5% 8.7%;
+}
+/*end of FourthView*******************/
+
+
+
+/*FifthView*****************************/
+.Review{
+    display: flex;
+    justify-content: space-between;
+}
+.leftArrow{
+    width: 10%;
+    margin-left: 14%;
+    cursor: pointer;
+}
+.ReviewSpace{
+    text-align: center;
+    margin-top: -2.7%;
+    margin-bottom: 4%;
+    width: 70%;
+}
+.rightArrow{
+    width: 10%;
+    margin-right: 14%;
+    cursor: pointer;
+}
+.Fifth h1, h3{
+    margin-top: 8%;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.Fifth h3{
+    font-size: 19px;
+}
+.Fifth h1{
+    font-size: 35px;
+}
+.YourReview{
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+.YourReview input{
+    width: 83.5%;
+    border: none;
+    box-shadow: 0px 0px 10px   rgb(218, 216, 216) ;
+    margin-bottom: 0.03%;
+    padding: 1% 1.5%;
+    font-size: 15px;
+}
+.YourReview textarea{
+    padding: 1%;
+    font-size: 12px;
+    width: 84.5%;
+    margin-top: 1%;
+    border: none;
+    box-shadow: 0px 0px 10px   rgb(218, 216, 216) ;
+}
+
+.YourReview button{
+    width: 87%;
+    font-size: 15px;
+    padding: 1% 0;
+    box-shadow: 0px 0px 10px   rgb(218, 216, 216) ;
+    border: none;
+    background-color: white;
+}
+.YourReview button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
+#Review{
+    display: block;
+}
+#Message{
+    display: none;
+}
+.YourMessage{
+    display: none;
+}
+/*end of FifthView**********************/
+
+
+/*Responsive Design******************************/
+
+.Headerphone{
+    display:none;
+}
+.Principalphone{
+    display: none;
+}
+.Secondphone{
+    display: none;
+}
+.Picsphone{
+    display: none;
+}
+.Reviewsphone{
+    display: none;
+}
+.Footerph{
+    display: none;
+}
+
+@media  (max-width:1125px) {
+
+    .promo{
+        font-size: 1.5rem;
+    }
+    .info{
+        font-size: 1.5rem;
+    }
+    .Princright h2{
+        font-size: 2.4rem;
+    }
+    .MessageHeader{
+        font-size: 27px;
+    }
+    .YourReview button{
+        font-size: 15px;
+    }
+    .YourReview input{
+        font-size: 15px;
+    }
+    .YourReview textarea{
+        font-size: 12px;
+    }
+    .Fifth h1{
+        font-size: 35px;
+    }
+    .Message{
+        font-size: 27px;
+    }
+    .button{
+        margin: 10% 0 8% 22%;
+    }
+    
+    .Contact{
+        font-size:1.6rem;
+         margin: -9% 0 0 10% ;
+    }
+    .Third ul{
+        font-size: 1.2rem;
+    }
+    .Follow{
+        font-size: 1.55rem;
+    }
+    .Fifth h3{
+        font-size: 16px;
+    }
+    .Phone{
+        font-size: 1.7rem;
+    }
+    .reviewstitt{
+        font-size: 1rem;
+    }
+    .sendbutton{
+       font-size: 0.8rem;
+    }
+    
+}
+
+@media  (max-width:1070px) {
+    .promo{
+        font-size: 1.4rem;
+    }
+    .info{
+        font-size: 1.3rem;
+    }
+    .Princright h2{
+        font-size: 2.4rem;
+    }
+    .MessageHeader{
+        font-size: 25px;
+    }
+    .YourReview button{
+        font-size: 14px;
+    }
+    .YourReview input{
+        font-size: 14px;
+    }
+    .YourReview textarea{
+        font-size: 11px;
+    }
+    .Fifth h1{
+        font-size: 33px;
+    }
+    .Message{
+        font-size: 25px;
+    }
+    .button{
+        margin: 8% 0 8% 22%;
+    }
+    .Contact{
+        font-size:1.4rem;
+    }
+    .Third ul{
+        font-size: 1.1rem;
+    }
+    .Follow{
+        font-size: 1.4rem;
+    }
+    .Fifth h3{
+        font-size: 14px;
+    }
+    .Phone{
+        font-size: 1.5rem;
+    }
+    .reviewstitt{
+        font-size: 0.9rem;
+    }
+    .sendbutton{
+        font-size: 0.7rem;
+     } 
+}
+
+@media  (max-width:990px) {
+    .promo{
+        font-size: 1.15rem;
+    }
+    .info{
+        font-size: 1.2rem;
+    }
+    .Princright h2{
+        font-size: 1.8rem;
+    }
+    .Contact{
+        font-size:1.15rem;
+    }
+    .YourReview button{
+        font-size: 13px;
+    }
+    .YourReview input{
+        font-size: 13px;
+    }
+    .YourReview textarea{
+        font-size: 10px;
+    }
+    .MessageHeader{
+        font-size: 21px;
+    }
+    .Fifth h1{
+        font-size: 26px;
+    }
+    .Message{
+        font-size: 21px;
+    }
+    .button{
+        margin: 7% 0 0 22%;
+    }
+    .Third ul{
+        font-size: 0.9rem;
+    }
+    .Follow{
+        font-size: 0.9rem;
+    }
+    .Fifth h3{
+        font-size: 13px;
+    }
+    .Phone{
+        font-size: 1.3rem;
+    }
+    .netlogo:last-of-type {
+        margin-right: 25%;
+    }
+    .reviewstitt{
+        font-size: 0.8rem;
+    }
+    .sendbutton{
+        font-size: 0.7rem;
+     } 
+}
+
+@media  (max-width:800px) {
+    .promo{
+        font-size: 0.9rem;
+    }
+    .info{
+        font-size: 0.95rem;
+    }
+
+    .button{
+        margin: 8% 0 0 22%;
+    }
+    .MessageHeader{
+        font-size: 17px;
+    }
+    .YourReview button{
+        font-size: 12px;
+    }
+    .YourReview input{
+        font-size: 12px;
+    }
+    .YourReview textarea{
+        font-size: 9px;
+    }
+    .Fifth h1{
+        font-size: 22px;
+    }
+    .Message{
+        font-size: 17px;
+    }
+    .Princright h2{
+        font-size: 1.5rem;
+    }
+    .Contact{
+        font-size:0.95rem;
+    }
+    .Third ul{
+        font-size: 0.7rem;
+    }
+    .Follow{
+        font-size: 0.75rem;
+    }
+    .Fifth h3{
+        font-size: 10px;
+    }
+    .Phone{
+        font-size: 1.1rem;
+    }
+    .reviewstitt{
+        font-size: 0.6rem;
+    }
+    .netlogo:last-of-type {
+        margin-right: 26%;
+    }
+    .sendbutton{
+        font-size: 0.5rem;
+    } 
+}
+
+@media  (max-width:645px) {
+    .promo{
+        font-size: 0.74rem;
+    }
+    .info{
+        font-size: 0.7rem;
+    }
+    .Princright h2{
+        font-size: 1.3rem;
+    }
+    .Contact{
+        font-size:0.78rem;
+    }
+    .MessageHeader{
+        font-size: 14px;
+    }
+    .YourReview button{
+        font-size: 10px;
+    }
+    .YourReview input{
+        font-size: 10px;
+    }
+    .YourReview textarea{
+        font-size: 8px;
+    }
+    .Fifth h1{
+        font-size: 19px;
+    }
+    .Message{
+        font-size: 14px;
+    }
+    .Third ul{
+        font-size: 0.6rem;
+    }
+    .Follow{
+        font-size: 0.65rem;
+    }
+    .Fifth h3{
+        font-size: 8px;
+    }
+    .Phone{
+        font-size: 0.9rem;
+    }
+    .reviewstitt{
+        font-size: 0.6rem;
+    }
+    .sendbutton{
+        font-size: 0.5rem;
+    } 
+}
+
+@media  (max-width:540px) {
+    .promo{
+        font-size: 0.7rem;
+    }
+    .info{
+        font-size: 0.66rem;
+    }
+    .Princright h2{
+        font-size: 1.2rem;
+    }
+    .Contact{
+        font-size:0.74rem;
+    }
+    .MessageHeader{
+        font-size: 12px;
+    }
+    .YourReview button{
+        font-size: 9px;
+    }
+    .YourReview input{
+        font-size: 9px;
+    }
+    .YourReview textarea{
+        font-size: 7px;
+    }
+    .Fifth h1{
+        font-size: 17px;
+    }
+    .Message{
+        font-size: 12px;
+    }
+    .Third ul{
+        font-size: 0.5rem;
+    }
+    .Follow{
+        font-size: 0.55rem;
+    }
+    .Phone{
+        font-size: 0.75rem;
+    }
+    .reviewstitt{
+        font-size: 0.5rem;
+    }
+    .sendbutton{
+        font-size: 0.5rem;
+     } 
+}
+
+@media  (max-width: 500px) {
+
+    .header-div{display: none;}
+    .Footer{display: none;}
+    .Principal{display: none;}
+    .Second{display: none;}
+    .Third{display: none;}
+    .Fourth{display: none;}
+    .Fifth{display:none;}
+    
+
+    .Headerphone{display: block;}
+    .Principalphone{display:block;}
+    .Secondphone{display: block;}
+    .Picsphone{display: block;}
+    .Footerph{display: block;}
+
+}

@@ -2,6 +2,11 @@ import Head from 'next/head'
 import PrincipalView from '../components/DeskVersion/PrincipalView'
 import Secondview from '../components/DeskVersion/SecondView'
 import ThirdView from '../components/DeskVersion/ThirdView'
+import FourthView from '../components/DeskVersion/FourthView'
+import FifthView from '../components/DeskVersion/FifthView'
+import HeaderMob from '../components/MobileVersion/HeaderMob'
+import PrincipalViewMob from '../components/MobileVersion/PrincipalViewMob'
+import SecondViewMob from '../components/MobileVersion/SecondViewMob'
 
 
 export default function Home() {
@@ -19,6 +24,12 @@ export default function Home() {
         <PrincipalView />
         <Secondview />
         <ThirdView />
+        <FourthView />
+        <FifthView />
+
+        <HeaderMob />
+        <PrincipalViewMob />
+        <SecondViewMob />
       </main>
     
       

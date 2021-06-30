@@ -1,18 +1,44 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 export default function Layout(props){
+
+    function ShowMessage(){
+        document.getElementById("Review").style.display="none"
+        document.getElementById("Message").style.display="block"
+    }
+    function ShowReview(){
+        document.getElementById("Review").style.display="block"
+        document.getElementById("Message").style.display="none"
+    }
+
     return(
         <div className="Layout">
             <header>
-                <div className="Header">
-                    <div className="Logo1">
-                        <Image  src="/logo1.1.png" width="232%" height="97%"/>
+                
+                <div className="header-div">
+                    <div className="Header">
+                        <div className="Logo1">
+                            <Image  src="/logo1.1.png" width="232%" height="97%"/>
+                        </div>
+                        
+                        <div className="Logo2">
+                            <Image  src="/logo1.2.png" width="700%" height="120%"/>
+                        </div>
+                        <div className="Message">
+                            <Link href="#Message">
+                                <p className="MessageHeader" onClick={ShowMessage}>Live us a message</p>
+                            </Link>
+                        </div>
+                        <div className="ReviewHeader">
+                            <Link href="#Review">
+                                <p className="MessageHeader" onClick={ShowReview}>Post a Review</p>
+                            </Link>
+                        </div>
                     </div>
                     
-                    <div className="Logo2">
-                        <Image  src="/logo1.2.png" width="700%" height="120%"/>
-                    </div>
                 </div>
+                
             </header>
 
             {props.children}
@@ -20,9 +46,12 @@ export default function Layout(props){
             <footer>
 
                 <div className="Footer">
-
                     <div className="Phone">
-                        <a className="phone" href="tel: +17866639117">+1 (786) 6639117</a>
+                        <div className="Message">
+                            <p onClick={ShowMessage}>Live us a message</p>
+                        </div>
+                    
+                        <a className="Phone" href="tel: +17866639117">+1 (786) 6639117</a>
                     </div>
                     
                     <div className="footlog">
@@ -54,7 +83,7 @@ export default function Layout(props){
 
                             <a className="netlogo" href="https://m.facebook.com/seahorseblueinc/">
                                 <div className="netlogo">
-                                    <Image src="/facebook.svg" width="100%" height="100%" />
+                                    <Image src="/facebook.svg" width="100%" height="100%"  />
                                 </div>
                             </a>
 
@@ -76,7 +105,6 @@ export default function Layout(props){
 
                 </div>
    
-                
             </footer>
         </div>
     );

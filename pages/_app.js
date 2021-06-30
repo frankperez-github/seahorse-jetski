@@ -1,4 +1,5 @@
 import '../styles/Desk.css'
+import '../styles/Phone.css'
 import Layout from '../components/DeskVersion/Layout'
 
 

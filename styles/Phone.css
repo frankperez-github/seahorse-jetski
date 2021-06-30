@@ -1,0 +1,217 @@
+/*Header Phone*************************/
+.Headerphone{
+    background-color: #323F41 ;
+}
+
+.hdrlog1{
+    width: 40%;
+    padding: 2% 0;
+    margin-left: 2%;
+}
+
+.hdrlog2{
+    width: 50%;
+    margin: -15% 0 0% 32%;
+    padding-bottom: 4.6%;
+}
+/*end of Header Phone*****************************/
+
+
+
+/*PrincipalView Mob******************/
+.Promophone{
+    background-image: url('/phbackgr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.Promophone h2{
+    color: white;
+    padding: 43% 4% 7%  4% ;
+    font-size: 2.2rem;
+
+}
+
+.Horizsect{
+    color: white;
+    padding: 0 3%;
+    padding-top: 0;
+    font-size: 1.5rem;
+    background-image: url('/secchoriz.png');
+}
+
+.Promotext{
+    color: white;
+    padding: 42.5% 5% 2% 5%;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.Principalphone{
+    background-color:#323F41;
+    padding-bottom: 1%;
+    margin-bottom: 3%;
+}
+.Contactphone{
+    border: solid;
+    border-color: white;
+    width: 55% ;
+    margin: 5% 21%;
+    padding: 1%;
+    font-size: 1.5rem;
+}
+.Contactphone a{
+    margin-left: 14%;
+}
+/*end of PrincipalView Mob***********/
+
+
+/*SecondViewMob**********************/
+.videoph{
+    width:93%;
+    margin-left: 3.5%;
+    margin-bottom: 3%;
+}
+.JetsBackGr{
+    width: 100%;
+}
+.FAQph{
+    text-align: start;
+    background-color: #323F41;
+    color: white;
+    margin-top: -2%;
+    font-size: 1.25rem;
+}
+.FAQph ul {
+    list-style: initial;
+    padding: 3% 10% 3% 8%;
+}
+/*end of SecondViewMob***************/
+
+
+/*Responsive Design*/
+@media (max-width:414px){
+
+    .Promophone h2{
+        font-size: 1.9rem;
+    }
+    .Horizsect{
+        font-size: 1.5rem;
+    }
+    .Promotext{
+        font-size: 1.3rem;
+    }
+    .FAQph{
+        font-size: 1.15rem;
+    }
+    .phone{
+        font-size: 1rem;    
+    }
+    .followtext{
+        font-size:1rem;
+    }
+    .reviewstittl{
+        font-size: 2rem;
+    }
+    .titt{
+        font-size: 1rem;
+    }
+    .sendbuttonph{
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:375px){
+
+    .Promophone h2{
+        font-size: 1.9rem;
+    }
+    .Horizsect{
+        font-size: 1.4rem;
+    }
+    .Promotext{
+        font-size: 1.3rem;
+    }
+    .FAQph{
+        font-size: 1.15rem;
+    }
+    .phone{
+        font-size: 0.9rem;    
+    }
+    .followtext{
+        font-size:0.9rem;
+    }
+    .reviewstittl{
+        font-size: 2rem;
+    }
+    .titt{
+        font-size: 0.8rem;
+    }
+    .sendbuttonph{
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:360px){
+
+    .Promophone h2{
+        font-size: 1.9rem;
+    
+    }
+    .Horizsect{
+        font-size: 1.3rem;
+    }
+    .Promotext{
+        font-size: 1.3rem;
+    }
+    .FAQph{
+        font-size: 1.1rem;
+    }
+    .phone{
+        font-size: 0.8rem;    
+    }
+    .followtext{
+        font-size:0.85rem;
+    }
+    .reviewstittl{
+        font-size: 2.2rem;
+    }
+    .titt{
+    font-size: 0.95rem;
+    }
+    .sendbuttonph{
+        font-size: 0.7rem;
+    }
+   
+}
+
+@media (max-width:320px){
+
+    .Promophone h2{
+        font-size: 1.6rem;
+    }
+    .Horizsect{
+        font-size: 1.2rem;
+    }
+    .Promotext{
+        font-size: 1.15rem;
+    }
+    .FAQph{
+        font-size: 1rem;
+    }
+    .phone{
+        font-size: 0.7rem;    
+    }
+    .followtext{
+        font-size:0.8rem;
+    }
+    .reviewstittl{
+        font-size: 2rem;
+    }
+    .titt{
+        font-size: 0.85rem;
+    }
+    .sendbuttonph{
+        font-size: 0.6rem;
+    }
+}
