@@ -26,12 +26,12 @@ export default function Layout(props){
                             <Image  src="/logo1.2.png" width="700%" height="120%"/>
                         </div>
                         <div className="Message">
-                            <Link href="#Message">
-                                <p className="MessageHeader" onClick={ShowMessage}>Live us a message</p>
+                            <Link href="#ToWrite">
+                                <p className="MessageHeader" onClick={ShowMessage}>Leave us a message</p>
                             </Link>
                         </div>
                         <div className="ReviewHeader">
-                            <Link href="#Review">
+                            <Link href="#ToWrite">
                                 <p className="MessageHeader" onClick={ShowReview}>Post a Review</p>
                             </Link>
                         </div>
@@ -48,7 +48,9 @@ export default function Layout(props){
                 <div className="Footer">
                     <div className="Phone">
                         <div className="Message">
-                            <p onClick={ShowMessage}>Live us a message</p>
+                            <Link href="#ToWrite">
+                                <p onClick={ShowMessage}>Leave us a message</p>
+                            </Link>
                         </div>
                     
                         <a className="Phone" href="tel: +17866639117">+1 (786) 6639117</a>

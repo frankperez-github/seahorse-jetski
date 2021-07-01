@@ -1,25 +1,61 @@
 import Image from 'next/image'
-
+import {Swiper, SwiperSlide} from 'swiper/react'
 
 
 export default function FifthView(){
+
     return(
-        <div className="Fifth">
-            <h1>Reviews</h1>
-
-            <h3 className="By">By Adrian Valdes:</h3>
+        <div className="Fifth">-
             
-            <div className="Review">
+            <h1>Reviews</h1>
+            
+            <div className="Review"  id="ToWrite">
 
-                <div className="leftArrow">
+                <div className="leftArrow ">
                     <Image src="/leftArrow.svg" width="70%" height="70%" />
                 </div>
 
                 <div className="ReviewSpace">
-                    <h3>Amazing Experience.</h3>
-                </div>
+                    <Swiper 
+                        spaceBetween={50}
+                        slidesPerView={1}
+                        className="Swiper" >
+                        
+                        <SwiperSlide className="SwiperSlide">
+                        <h3 className="By">By Adrian Valdes:</h3>
 
-                <div className="rightArrow">
+                        <h3 className="ReviewItself">Amazing Experience.</h3>
+                        </SwiperSlide>
+
+                        <SwiperSlide className="SwiperSlide">
+                        <h3 className="By">By Frank Perez:</h3>
+
+                        <h3 className="ReviewItself">Waoo! It was awesome. I drived a jetski and y drowned up. I have a good day. Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h3>
+
+                        </SwiperSlide>
+                        
+                        <SwiperSlide className="SwiperSlide">
+                        <h3 className="By">By Asiel Valdes:</h3>
+
+                        <h3 className="ReviewItself">Incredible! </h3>
+                        
+                        </SwiperSlide>
+
+                        <SwiperSlide className="SwiperSlide">
+                        <h3 className="By">By Camilo Perez:</h3>
+
+                        <h3 className="ReviewItself">Very fun.</h3>
+                        
+                        </SwiperSlide>
+
+                    </Swiper>
+
+
+                    
+
+                </div>
+                
+                <div className="rightArrow ">
                     <Image src="/rightArrow.svg" width="70%" height="70%" />
                 </div>
 

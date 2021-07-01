@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import ReviewMob from './ReviewMob'
 
 export default function FooterMob(){
@@ -29,7 +30,7 @@ export default function FooterMob(){
                         </div>
 
                         <div className="MessagePh">
-                            <p onClick={ShowMessage}>Live us a message</p>
+                            <p onClick={ShowMessage}>Leave us a message</p>
                         </div>
                     </div>
                 
