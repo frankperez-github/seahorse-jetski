@@ -99,6 +99,23 @@
 
 
 /*ReviewMob**************************/
+.ReviewMob{
+    margin-bottom: 15%;
+}
+.ReviewSpaceMob{
+    text-align: center;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    width: 97%;
+}
+.SwiperSlideMob{
+    width: 70% !important;
+    margin-left:29.7%;
+    margin-top: -1%;
+}
+.SwiperSlideMob:first-of-type{
+    margin-left: 16%;
+}
 .ReviewMob h1{
     text-align: center;
     margin-top: 15%;

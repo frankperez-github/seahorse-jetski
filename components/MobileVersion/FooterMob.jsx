@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import ReviewMob from './ReviewMob'
 
 export default function FooterMob(){

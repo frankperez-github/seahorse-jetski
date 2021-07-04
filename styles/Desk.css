@@ -28,7 +28,7 @@ a{
     position: absolute;
     margin-left: -20%;
     margin-top: 1%;
-    font-size: 30px;
+    font-size: 27px;
 }
 .ReviewHeader{
     color: white;
@@ -254,21 +254,12 @@ header{
     display: flex;
     justify-content: space-between;
 }
-.leftArrow{
-    width: 10%;
-    margin-left: 14%;
-    cursor: pointer;
-}
 .ReviewSpace{
     text-align: center;
     margin-top: -2.7%;
     margin-bottom: 4%;
-    width: 70%;
-}
-.rightArrow{
-    width: 10%;
-    margin-right: 14%;
-    cursor: pointer;
+    width: 85%;
+    margin-left: 7%;
 }
 .Fifth h1, h3{
     margin-top: 8%;
@@ -330,8 +321,12 @@ header{
 
 /*Swiper********************************/
 .SwiperSlide{
-    width: 100% !important;
-    margin-top: -3%;
+    width: 80% !important;
+    margin-left: 20%;
+    margin-top: -3.5%;
+}
+.SwiperSlide:first-of-type{
+    margin-left: 10.5%;
 }
 .ReviewItself{
     margin-top: -2%;
@@ -371,7 +366,7 @@ header{
         font-size: 2.4rem;
     }
     .MessageHeader{
-        font-size: 27px;
+        font-size: 23px;
     }
     .YourReview button{
         font-size: 15px;
@@ -428,7 +423,7 @@ header{
         font-size: 2.4rem;
     }
     .MessageHeader{
-        font-size: 25px;
+        font-size: 21px;
     }
     .YourReview button{
         font-size: 14px;
@@ -494,7 +489,7 @@ header{
         font-size: 10px;
     }
     .MessageHeader{
-        font-size: 21px;
+        font-size: 19px;
     }
     .Fifth h1{
         font-size: 26px;
@@ -540,7 +535,7 @@ header{
         margin: 8% 0 0 22%;
     }
     .MessageHeader{
-        font-size: 17px;
+        font-size: 14px;
     }
     .YourReview button{
         font-size: 12px;
@@ -600,7 +595,7 @@ header{
         font-size:0.78rem;
     }
     .MessageHeader{
-        font-size: 14px;
+        font-size: 12px;
     }
     .YourReview button{
         font-size: 10px;

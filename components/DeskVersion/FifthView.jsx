@@ -1,27 +1,30 @@
-import Image from 'next/image'
+import SwiperCore, { Navigation, Pagination } from 'swiper';
 import {Swiper, SwiperSlide} from 'swiper/react'
 
 
 export default function FifthView(){
 
+    SwiperCore.use([Navigation, Pagination]);
+      
     return(
+
         <div className="Fifth">-
+
             
             <h1>Reviews</h1>
             
             <div className="Review"  id="ToWrite">
 
-                <div className="leftArrow ">
-                    <Image src="/leftArrow.svg" width="70%" height="70%" />
-                </div>
-
                 <div className="ReviewSpace">
                     <Swiper 
-                        spaceBetween={50}
+                        spaceBetween={0}
                         slidesPerView={1}
-                        className="Swiper" >
+                        className="Swiper"
+                        id="Swiper" 
+                        navigation       >
                         
-                        <SwiperSlide className="SwiperSlide">
+                        <SwiperSlide className="SwiperSlide" >
+                        
                         <h3 className="By">By Adrian Valdes:</h3>
 
                         <h3 className="ReviewItself">Amazing Experience.</h3>
@@ -49,16 +52,9 @@ export default function FifthView(){
                         </SwiperSlide>
 
                     </Swiper>
-
-
-                    
-
+                    <div className="swiper-pagination"></div>
                 </div>
                 
-                <div className="rightArrow ">
-                    <Image src="/rightArrow.svg" width="70%" height="70%" />
-                </div>
-
             </div>
 
 
@@ -77,6 +73,7 @@ export default function FifthView(){
                     <button>Send</button>
                 </form>
             </div>
+        
         </div>
     );
 }
