@@ -28,7 +28,7 @@ a{
     position: absolute;
     margin-left: -20%;
     margin-top: 1%;
-    font-size: 27px;
+    font-size: 21px;
 }
 .ReviewHeader{
     color: white;
@@ -106,7 +106,7 @@ header{
 .Follow{
     padding: 3% 3% 0 3%;
     color: white;
-    font-size: 1.95rem;
+    font-size: 1.8rem;
 }
 .largescript{
     width: 12%;
@@ -146,7 +146,7 @@ header{
 }
 
 .promo{
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     padding: 1.6% 45% 80% 3%;
     text-align: start;
 }
@@ -160,7 +160,7 @@ header{
 }
 
 .Princright h2{
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     text-align: center;
 }
 
@@ -175,7 +175,7 @@ header{
 }
 
 .info{
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     text-align: center;
     padding: 5% 19% 0 8%;
     color: white;
@@ -185,7 +185,7 @@ header{
     width: 37%;
     height: 2%;
     padding: 4% 8% 0 0;
-    margin: 15% 0 5% 22%;
+    margin: 13% 0 5% 22%;
     border: solid;
 
 }
@@ -193,7 +193,7 @@ header{
 .Contact{
     text-decoration: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin: -7.5% 0 0 17.5% ;
     padding-bottom: 4%;
 }
@@ -208,9 +208,9 @@ header{
 }
 
 .video{
-    width: 58%;
-    height: 55%;
-    margin: 10% 10% 8% 5%;
+    width: 55%;
+    height: 40%;
+    margin: 10% 10% 8% 8%;
     padding-top: 3%;
 }
 /*end of Second View******************/
@@ -357,16 +357,16 @@ header{
 @media  (max-width:1125px) {
 
     .promo{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .info{
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
     .Princright h2{
-        font-size: 2.4rem;
+        font-size: 2.1rem;
     }
     .MessageHeader{
-        font-size: 23px;
+        font-size: 20px;
     }
     .YourReview button{
         font-size: 15px;
@@ -388,14 +388,14 @@ header{
     }
     
     .Contact{
-        font-size:1.6rem;
-         margin: -9% 0 0 10% ;
+        font-size:1.3rem;
+        margin: -9% 0 0 10% ;
     }
     .Third ul{
         font-size: 1.2rem;
     }
     .Follow{
-        font-size: 1.55rem;
+        font-size: 1.45rem;
     }
     .Fifth h3{
         font-size: 16px;
@@ -414,16 +414,16 @@ header{
 
 @media  (max-width:1070px) {
     .promo{
-        font-size: 1.4rem;
+        font-size: 1.25rem;
     }
     .info{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .Princright h2{
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
     .MessageHeader{
-        font-size: 21px;
+        font-size: 18.5px;
     }
     .YourReview button{
         font-size: 14px;
@@ -444,13 +444,13 @@ header{
         margin: 8% 0 8% 22%;
     }
     .Contact{
-        font-size:1.4rem;
+        font-size:1.2rem;
     }
     .Third ul{
         font-size: 1.1rem;
     }
     .Follow{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     .Fifth h3{
         font-size: 14px;
@@ -468,16 +468,16 @@ header{
 
 @media  (max-width:990px) {
     .promo{
-        font-size: 1.15rem;
+        font-size: 1rem;
     }
     .info{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .Princright h2{
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
     .Contact{
-        font-size:1.15rem;
+        font-size:1rem;
     }
     .YourReview button{
         font-size: 13px;
@@ -489,7 +489,7 @@ header{
         font-size: 10px;
     }
     .MessageHeader{
-        font-size: 19px;
+        font-size: 14px;
     }
     .Fifth h1{
         font-size: 26px;
@@ -504,7 +504,7 @@ header{
         font-size: 0.9rem;
     }
     .Follow{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
     .Fifth h3{
         font-size: 13px;
@@ -525,17 +525,17 @@ header{
 
 @media  (max-width:800px) {
     .promo{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
     .info{
-        font-size: 0.95rem;
+        font-size: 0.8rem;
     }
 
     .button{
         margin: 8% 0 0 22%;
     }
     .MessageHeader{
-        font-size: 14px;
+        font-size: 12px;
     }
     .YourReview button{
         font-size: 12px;
@@ -553,16 +553,16 @@ header{
         font-size: 17px;
     }
     .Princright h2{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .Contact{
-        font-size:0.95rem;
+        font-size:0.79rem;
     }
     .Third ul{
         font-size: 0.7rem;
     }
     .Follow{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .Fifth h3{
         font-size: 10px;
@@ -583,19 +583,19 @@ header{
 
 @media  (max-width:645px) {
     .promo{
-        font-size: 0.74rem;
+        font-size: 0.6rem;
     }
     .info{
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     .Princright h2{
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .Contact{
-        font-size:0.78rem;
+        font-size:0.65rem;
     }
     .MessageHeader{
-        font-size: 12px;
+        font-size: 10px;
     }
     .YourReview button{
         font-size: 10px;
@@ -616,7 +616,7 @@ header{
         font-size: 0.6rem;
     }
     .Follow{
-        font-size: 0.9rem;
+        font-size: 0.68rem;
     }
     .Fifth h3{
         font-size: 8px;
@@ -634,19 +634,19 @@ header{
 
 @media  (max-width:540px) {
     .promo{
-        font-size: 0.7rem;
+        font-size: 0.5rem;
     }
     .info{
-        font-size: 0.66rem;
+        font-size: 0.6rem;
     }
     .Princright h2{
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
     .Contact{
-        font-size:0.74rem;
+        font-size:0.6rem;
     }
     .MessageHeader{
-        font-size: 12px;
+        font-size: 9px;
     }
     .YourReview button{
         font-size: 9px;
@@ -667,7 +667,7 @@ header{
         font-size: 0.5rem;
     }
     .Follow{
-        font-size: 0.75rem;
+        font-size: 0.65rem;
     }
     .Phone{
         font-size: 0.75rem;
