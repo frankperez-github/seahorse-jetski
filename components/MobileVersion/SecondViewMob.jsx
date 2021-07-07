@@ -12,7 +12,7 @@ export default function SecondViewMob(){
             </div>
 
             <div className="JetsBackGr">
-                <Image src="/jetsbackgr.svg" width="505%" height="129%"/>
+                <Image src="/jetsbackgr.jpg" width="505%" height="129%"/>
             </div>
 
             <div className="FAQph">

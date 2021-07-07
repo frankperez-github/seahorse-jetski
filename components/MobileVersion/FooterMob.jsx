@@ -52,20 +52,20 @@ export default function FooterMob(){
                     
                         <div className="Networks">
 
-                            <a className="netlogo" href="https://m.facebook.com/seahorseblueinc/">
-                                <div className="netlogo">
+                            <a className="netlogoMob" href="https://m.facebook.com/seahorseblueinc/">
+                                <div className="netlogoMob">
                                     <Image src="/facebook.svg" width="100%" height="100%"  />
                                 </div>
                             </a>
 
-                            <a className="netlogo" href="https://wa.me/7866639117">
-                                <div className="netlogo">
+                            <a className="netlogoMob" href="https://wa.me/7866639117">
+                                <div className="netlogoMob">
                                     <Image src="/whatsapp.svg" width="100%" height="100%" />
                                 </div>
                             </a>    
 
-                            <a className="netlogo" href="https://instagram.com/seahorseblueinc?r=nametag">
-                                <div className="netlogo">
+                            <a className="netlogoMob" href="https://instagram.com/seahorseblueinc?r=nametag">
+                                <div className="netlogoMob">
                                     <Image src="/instagram.svg" width="100%" height="100%" />
                                 </div>
                             </a>

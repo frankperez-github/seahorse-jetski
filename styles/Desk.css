@@ -7,12 +7,21 @@
                                                    
 *********************************************************************************************************************************************************************************************************************************************************************/
 
+@font-face {
+    font-family: myriad_pro_regular;
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF');
+}
 *{
+    font-family: myriad_pro_regular;
     margin: 0;
     padding: 0;
 }
 a{
+    
     color: white;
+}
+h3{
+    
 }
 
 
@@ -123,7 +132,7 @@ header{
     margin-left: 0%;
 }
 .netlogo:last-of-type {
-    margin-right: 10%;
+    margin-right: 15%;
 }
 /*end of Layout*************************************/
 
@@ -140,13 +149,13 @@ header{
     width: 50% ;
     justify-content: left;
     color: white;
-    background-image: url('/background1.png');
+    background-image: url('/background1.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
 
 .promo{
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     padding: 1.6% 45% 80% 3%;
     text-align: start;
 }
@@ -154,7 +163,7 @@ header{
 .Princright{
     width: 50%;
     color: white;
-    background-image: url('/background1.2.png');
+    background-image: url('/background1.2.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -202,7 +211,7 @@ header{
 
 /*Second View*************************/
 .Second{
-    background-image: url('/background2.png');
+    background-image: url('/background2.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -219,7 +228,7 @@ header{
 /*end of Third View*******************/
 .Third{
     display: flex;
-    background-image: url('/background3.png');
+    background-image: url('/background3.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
 }

@@ -20,7 +20,7 @@
 
 /*PrincipalView Mob******************/
 .Promophone{
-    background-image: url('/phbackgr.png');
+    background-image: url('/phbackgr.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -30,7 +30,6 @@
     color: white;
     padding: 43% 4% 7%  4% ;
     font-size: 2.2rem;
-
 }
 
 .Horizsect{
@@ -174,7 +173,7 @@
     padding-left: 0.5%;
     padding-top: 0.8%;
 }
-.netlogo{
+.netlogoMob{
     width: 70%;
     margin: 2% 2% 2% 0%;
 }
@@ -183,7 +182,7 @@
     justify-content: space-between;
     margin-left: 0%;
 }
-.netlogo:last-of-type {
+.netlogoMob:last-of-type {
     margin-right: 10%;
 }
 .PhonePh a{
