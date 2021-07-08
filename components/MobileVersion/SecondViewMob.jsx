@@ -5,10 +5,10 @@ export default function SecondViewMob(){
     return(
         <div className="Secondphone">
             
-            <div >
-            <video className="videoph" controls >
-                <source src="/vid1.mp4" />
-            </video>
+            <div className="videoph">
+            
+            <iframe width="100%" height="200vh" src="https://www.youtube.com/embed/bARCE45FM4s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
             </div>
 
             <div className="JetsBackGr">
