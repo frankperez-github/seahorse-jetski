@@ -17,11 +17,8 @@
     padding: 0;
 }
 a{
-    
+    text-decoration: none;
     color: white;
-}
-h3{
-    
 }
 
 
@@ -43,6 +40,10 @@ h3{
     color: white;
     margin-top: 3%;
     margin-left: -0.45%;
+}
+.ReviewHeader p{
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 header{
     position: sticky;
@@ -81,6 +82,8 @@ header{
     padding-top: 1.4%;
     padding-left: 3.5%;
     font-size: 2rem;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 .Message{
     padding-bottom: 5%;
@@ -88,17 +91,23 @@ header{
 }
 .Message p{
     color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
 }
 .Message p:hover{
     color: gray; 
     cursor: pointer;
+    text-decoration-color: gray;
 }
 .ReviewHeader p:hover{
     color: gray; 
+    text-decoration: underline;
+    text-decoration-color: gray;
     cursor: pointer;
 }
 .Phone a:hover{
     color: gray;
+    text-decoration-color: gray;
 }
 .phone{
     font-size: 2rem;
@@ -202,8 +211,8 @@ header{
 .Contact{
     text-decoration: none;
     color: white;
-    font-size: 1.2rem;
-    margin: -7.5% 0 0 17.5% ;
+    font-size: 1.5rem;
+    margin: -7% 0 0 19% ;
     padding-bottom: 4%;
 }
 /*end of Principal View**********************************/
@@ -217,10 +226,9 @@ header{
 }
 
 .video{
-    width: 55%;
-    height: 40%;
-    margin: 10% 10% 8% 8%;
-    padding-top: 3%;
+    width: 45%;
+    height: 57vh;
+    padding: 10% 10% 15% 8%;
 }
 /*end of Second View******************/
 
