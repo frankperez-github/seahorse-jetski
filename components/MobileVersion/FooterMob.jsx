@@ -23,15 +23,7 @@ export default function FooterMob(){
                         <Image src="/logo.svg" width="1000%" height="1000%" />
                     </div>
 
-                    <div className="CenterFoot">
-                        <div className="MessagePh">
-                            <p onClick={ShowReview}>Post a review</p>
-                        </div>
-
-                        <div className="MessagePh">
-                            <p onClick={ShowMessage}>Leave us a message</p>
-                        </div>
-                    </div>
+                    
                 
                     <div  className="RightfootPh">
                                 

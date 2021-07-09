@@ -51,23 +51,14 @@ export default function ReviewMob(){
                     <div className="swiper-pagination"></div>
                 </div>
 
-                <div className="YourReview" id="ReviewPh">
+                <div className="YourReviewPh" id="ReviewPh">
                 <form action="submit">
                     <input type="name" placeholder="Your name"/><br/>
-                    <textarea name="review" id="review" cols="63" rows="15"  placeholder="Leave a review" /><br/>
+                    <textarea name="review" id="review" cols="63" rows="9"  placeholder="Leave a review" /><br/>
                     <button>Send</button>
                 </form>
             </div>
 
-            <div className="YourReview" id="MessagePh">
-                <form action="submit">
-                    <input type="name" placeholder="Your email"/><br/>
-                    <textarea name="review" id="review" cols="63" rows="15"  placeholder="Leave us a message" /><br/>
-                    <button>Send</button>
-                </form>
-            </div>
-        
-        
     
         </div>
     );

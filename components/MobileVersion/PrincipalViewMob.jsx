@@ -17,7 +17,7 @@ export default function PrincipalViewMob(){
             </div>
 
             <div className="Contactphone">
-                     <a  href="">CONTACT US</a>
+                <a  href="mailto:seahorseblueinc@gmail.com">CONTACT US</a>
             </div>   
 
         </div>

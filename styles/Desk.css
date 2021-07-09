@@ -79,31 +79,11 @@ header{
 }
 .Phone{
     width: 35%;
-    padding-top: 1.4%;
+    padding-top: 6.5%;
     padding-left: 3.5%;
     font-size: 2rem;
     text-decoration: underline;
     text-decoration-color: white;
-}
-.Message{
-    padding-bottom: 5%;
-    padding-left: 4%;
-}
-.Message p{
-    color: white;
-    text-decoration: underline;
-    text-decoration-color: white;
-}
-.Message p:hover{
-    color: gray; 
-    cursor: pointer;
-    text-decoration-color: gray;
-}
-.ReviewHeader p:hover{
-    color: gray; 
-    text-decoration: underline;
-    text-decoration-color: gray;
-    cursor: pointer;
 }
 .Phone a:hover{
     color: gray;

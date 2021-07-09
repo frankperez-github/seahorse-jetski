@@ -60,7 +60,7 @@
     font-size: 1.5rem;
 }
 .Contactphone a{
-    margin-left: 19%;
+    margin-left: 20%;
 }
 /*end of PrincipalView Mob***********/
 
@@ -98,6 +98,42 @@
 
 
 /*ReviewMob**************************/
+.YourReviewPh{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    margin-bottom: 5%;
+}
+.YourReviewPh input{
+    width: 99%;
+    margin-top: 5%;
+    border: none;
+    box-shadow: 0px 0px 10px   rgb(218, 216, 216) ;
+    margin-bottom: 0.03%;
+    padding: 1% 1.5%;
+    font-size: 15px !important;
+}
+.YourReviewPh textarea{
+    padding: 1%;
+    font-size: 15px;
+    width: 84.5%;
+    margin-top: 1%;
+    border: none;
+    box-shadow: 0px 0px 10px   rgb(218, 216, 216) ;
+}
+
+.YourReviewPh button{
+    width: 102% !important;
+    font-size: 17px;
+    padding: 2% 0;
+    box-shadow: 0px 0px 10px   rgb(218, 216, 216) ;
+    border: none;
+    background-color: white;
+}
+.YourReviewPh button:hover{
+    cursor: pointer;
+    background-color: whitesmoke;
+}
 .ReviewMob{
     margin-bottom: 15%;
 }
@@ -162,6 +198,7 @@
 .RightfootPh{
     width: 27%;
     margin-top: 5%;
+    margin-left: 30%;
 }
 .FollowPh{
     padding: 3% 3% 0 3%;
@@ -188,32 +225,6 @@
 .PhonePh a{
     font-size: 11px;
     margin-left: -2%;
-}
-.MessagePh{
-    font-size: 12px;
-    margin-top: 7%;
-    margin-left: -7%;
-}
-.MessagePh p{
-    color: white;
-    text-decoration: underline;
-}
-.MessagePh p:hover{
-    color: gray; 
-    cursor: pointer;
-}
-.CenterFoot{
-    margin-top: 8%;
-    margin-left: 4%;
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-}
-#ReviewPh{
-    display: block;
-}
-#MessagePh{
-    display: none;
 }
 /*end of FooterMob*******************/
 
@@ -320,6 +331,9 @@
 
     .Promophone h2{
         font-size: 1.6rem;
+    }
+    .Contactphone a{
+        margin-left: 15%;
     }
     .Horizsect{
         font-size: 1.2rem;

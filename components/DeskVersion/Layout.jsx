@@ -3,14 +3,6 @@ import Link from 'next/link'
 
 export default function Layout(props){
 
-    function ShowMessage(){
-        document.getElementById("Review").style.display="none"
-        document.getElementById("Message").style.display="block"
-    }
-    function ShowReview(){
-        document.getElementById("Review").style.display="block"
-        document.getElementById("Message").style.display="none"
-    }
 
     return(
         <div className="Layout">
@@ -25,16 +17,7 @@ export default function Layout(props){
                         <div className="Logo2">
                             <Image  src="/logo1.2.png" width="700%" height="120%"/>
                         </div>
-                        <div className="Message">
-                            <Link href="#ToWrite">
-                                <p className="MessageHeader" onClick={ShowMessage}>Leave us a message</p>
-                            </Link>
-                        </div>
-                        <div className="ReviewHeader">
-                            <Link href="#ToWrite">
-                                <p className="MessageHeader" onClick={ShowReview}>Post a Review</p>
-                            </Link>
-                        </div>
+                        
                     </div>
                     
                 </div>
@@ -47,12 +30,6 @@ export default function Layout(props){
 
                 <div className="Footer">
                     <div className="Phone">
-                        <div className="Message">
-                            <Link href="#ToWrite">
-                                <p onClick={ShowMessage}>Leave us a message</p>
-                            </Link>
-                        </div>
-                    
                         <a className="Phone" href="tel: +17866639117">+1 (786) 6639117</a>
                     </div>
                     

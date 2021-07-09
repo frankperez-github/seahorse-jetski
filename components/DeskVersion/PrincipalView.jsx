@@ -18,7 +18,7 @@
                     <div  className="button">
 
                         <div className="Contact">
-                            <a className="Contact" href="#">CONTACT US</a>
+                            <a className="Contact" href="mailto:seahorseblueinc@gmail.com">CONTACT US</a>
                         </div>   
                         
                     </div>    

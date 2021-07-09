@@ -66,14 +66,7 @@ export default function FifthView(){
                 </form>
             </div>
 
-            <div className="YourReview" id="Message">
-                <form action="submit">
-                    <input type="name" placeholder="Your email"/><br/>
-                    <textarea name="review" id="review" cols="63" rows="15"  placeholder="Leave us a Message" /><br/>
-                    <button>Send</button>
-                </form>
-            </div>
-        
+           
         </div>
     );
 }
